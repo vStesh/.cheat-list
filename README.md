@@ -1,6 +1,6 @@
 # Cheat list
 
-> Git, Ubuntu, MySQL, React Native etc.
+> Git, Bash, MySQL, React Native etc.
 
 
 
