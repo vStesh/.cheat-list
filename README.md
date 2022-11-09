@@ -8,5 +8,6 @@
 [create](/react-native#create), 
 [clone](/react-native#clone), 
 [general](/react-native#general), 
-[ios](/react-native#ios), 
+[ios](/tree/main/react-native#ios), 
 [android](/react-native#android), 
+
