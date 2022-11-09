@@ -16,6 +16,18 @@
 
 `git pull` - update local repository from remote
 
+
+`git cherry-pick <hash-commit>` - copy commit from one branch to another
+
+`git stash` - for record the current state of the working directory and the index, but want to go back to a clean working directory
+
+`git stash list` - list the stash entries that you currently have
+
+`git stash drop` - delete the all stash entries what you currently have
+
+`git stash pop` - stash the changes in a dirty working directory away(back to your current branch)
+
+
 ### Branches
 
 `git branch` - look branches locally
