@@ -1,16 +1,22 @@
 # Cheat list - Git
 
+### General
+
 `git clone <repository_link>` - clone repository into folder with repository name
 
 `git clone <repository_link> ./` - clone repository into current folder
 
 `git init` - git project initialize 
 
-`git add` - add files to git
+`git add .` - add all files to git
 
 `git commit -m "<text comment>"` - create commit with comment
 
 `git push` - push changes into repository
+
+`git pull` - update local repository from remote
+
+### Branches
 
 `git branch` - look branches locally
 
@@ -41,8 +47,6 @@
 `git remote -v` - show remote repository link
 
 `git remote set-url origin <new_remote_link>` - change remote repository link
-
-`git pull` - update local repository from remote
 
 `git reset --hard <commit_hash>` - back to commit with hash
 
