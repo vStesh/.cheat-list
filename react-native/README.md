@@ -56,7 +56,7 @@ npx react-native init AwesomeTSProject --template react-native-template-typescri
 Move to project folder
 
 ### Bundler
-`bundle install`
+Move to ./ios folder and run`bundle install`
 
 ### Pod install
 Move to ./ios folder and run `pod install`
