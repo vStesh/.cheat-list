@@ -68,7 +68,7 @@ Move to ./ios folder and run `pod install`
 2. ...
 3. 
 
-## General
+### General
 <span id="general"></span>
 `npm start` or `yarn start` or `npx react-native start` - start Metro server
 
@@ -76,16 +76,25 @@ Move to ./ios folder and run `pod install`
 
 `npm run ios` or `yarn ios` or `npx react-native run-ios` - build and start iOS emulator
 
-## ~/ios
+### ~/ios
 <span id="ios"></span>
 > Run this commands only in folder `./ios`
 
 `pod install` - install pods
 
 
-## ~/android
+### ~/android
 <span id="android"></span>
 > Run this commands only in folder `./android`
 
 `./gradlew clean` - clean project
 
+## Other list
+
+> For Android:
+### Duplicate resource:
+```hgignore
+rm -rf ./android/app/src/main/res/drawable-*
+rm -rf ./android/app/src/main/res/raw
+cd android && ./gradlew clean
+```

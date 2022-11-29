@@ -74,6 +74,9 @@
 
 `git merge --abort` - cancel merge branches when need continue
 
+### Submodule
+
+`git submodule add <repo_link> <folder>` - add submodule in current project from another repository
 
 
 ### Unassigned 
