@@ -88,6 +88,12 @@ Move to ./ios folder and run `pod install`
 > Run this commands only in folder `./android`
 
 `./gradlew clean` - clean project
+#### Duplicate resource error:
+```
+rm -rf ./android/app/src/main/res/drawable-*
+rm -rf ./android/app/src/main/res/raw
+cd android && ./gradlew clean
+```
 
 ## Other list
 
