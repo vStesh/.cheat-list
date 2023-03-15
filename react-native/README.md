@@ -105,3 +105,8 @@ rm -rf ./android/app/src/main/res/drawable-*
 rm -rf ./android/app/src/main/res/raw
 cd android && ./gradlew clean
 ```
+
+### Create release
+```hgignore
+./gradlew assembleRelease
+```
