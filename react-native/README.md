@@ -106,7 +106,11 @@ rm -rf ./android/app/src/main/res/raw
 cd android && ./gradlew clean
 ```
 
-### Create release
+### Create release APK
 ```hgignore
 ./gradlew assembleRelease
+```
+### Create release AAB
+```hgignore
+./gradlew bundleRelease
 ```
