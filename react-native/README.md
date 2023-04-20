@@ -53,6 +53,11 @@ or
 npx react-native init AwesomeTSProject --template react-native-template-typescript
 ```
 
+### Creating a new application with TypeScript template
+```
+npx react-native@latest init <name_of_project> --template react-native-template-typescript
+```
+
 Move to project folder
 
 ### Bundler
