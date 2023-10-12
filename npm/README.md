@@ -28,3 +28,8 @@ npx tsc --init
 ```hgignore
 npx tsc
 ```
+
+### set NodeJS default version using nvm
+```hgignore
+nvm alias default xx.xx.x
+```
