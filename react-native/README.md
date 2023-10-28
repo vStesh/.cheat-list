@@ -119,3 +119,23 @@ cd android && ./gradlew clean
 ```hgignore
 ./gradlew bundleRelease
 ```
+
+### Add fonts or material icons
+#### Copy Font files to `/src/assets/fonts/`
+#### Create `react-native.config.js` file:
+```hgigmore
+module.exports = {
+  project: {
+    ios: {
+      sourceDir: './ios',
+    },
+    android: {},
+  },
+  assets: ['./src/assets/fonts/'],
+};
+
+```
+#### Run command:
+```hgigmore
+npx react-native-asset
+```
