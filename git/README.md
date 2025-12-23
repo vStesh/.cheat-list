@@ -103,3 +103,10 @@
 .DS_Store
 .idea
 ```
+
+### Revert branch
+
+`git log --oneline --graph -n 10` - see the log to find necessary hash commit
+
+`git revert -m 1 <merge_commit_hash>` - revert commit and save the history
+
