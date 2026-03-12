@@ -110,3 +110,9 @@
 
 `git revert -m 1 <merge_commit_hash>` - revert commit and save the history
 
+
+### Fork repository
+
+`git remote add upstream https://github.com/original/project.git`
+
+`git fetch upstream`
